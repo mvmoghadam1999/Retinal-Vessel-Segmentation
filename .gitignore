@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets
+images_masks/
+data/
+*.zip
+
+# Checkpoints
+*.pth
+*.pt
+*.ckpt
+weights/*
+!weights/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+*.log
